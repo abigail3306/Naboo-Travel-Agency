@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Travel Naboo - Plan your trip today!  Prices to accommodate the royalty in all of us!</title>
+	<link href="default.css" type="text/css" rel="stylesheet" />
+	<link href="structure.css" type="text/css" rel="stylesheet" />
+	<meta name="description" content="Plan your trip here!  Offering many different packages to a wide variety of destinations and attractions.  Here, you can sign up for our newsletter!" />
+	<!--Page Created by Abigail Liskey-->
+	<!--Blue Ridge Community College Fall 2010 ITD110 Professor Oliver-->
+</head>
+
+<body>
+<div id="container">
+
+	<div id="header">
+		<h1>Travel Naboo</h1>
+		<h3>Official Naboo Travel Site</h3>
+	</div>
+
+	<div id="menuContainer">
+	<div id="menu">
+		<ul>
+		<li class="borderLeft"><h2>Home</h2>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+			</ul>
+		</li>
+		</ul>
+
+		<ul>
+			<li><h2>About Naboo</h2>
+			<ul>
+				<li><a href="generalinfo.html">General Information</a></li>
+				<li><a href="history.html">History of Naboo</a></li>
+			</ul>
+			</li>
+		</ul>
+
+		<ul>
+			<li><h2>Destinations</h2>
+			<ul>
+    			<li><a href="theed.html" title="Theed">Theed</a></li>
+    			<li><a href="otohgunga.html" title="Otoh Gunga">Otoh Gunga</a></li>			
+			</ul>
+			</li>
+		</ul>
+
+		<ul>
+  			<li><h2>Attractions</h2>
+  			<ul>
+  				<li><a href="lianormswamp.html" title="Lianorm Swamp">Lianorm Swamp</a></li>	
+  				<li><a href="lakecountry.html" title="Lake Country">Lake Country</a></li>
+  			</ul>
+  			</li>
+		</ul>
+
+		<ul>
+			<li><h2>Plan Your Trip</h2>
+			<ul>
+				<li><a href="plantrip.html">Plan Your Trip</a></li>
+			</ul>
+		</li>
+		</ul>
+
+		<ul>
+			<li><h2>Contact</h2>
+			<ul>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			</li>
+		</ul>	
+		
+		<div class="menuLogo">
+			<img src="images/plantriplogo.jpg" alt="Naboo" />
+		</div>			
+	</div>
+	</div>
+
+	<div id="contentContainer">
+	<div id="content">
+		<h2>Plan your trip today!</h2>
+		
+		<form method="post" action="formintercept.php">
+		<fieldset>
+			
+			<legend>Mailing Information</legend>
+			<div>
+				<label for="txtFirstName">First name:</label>
+				
+				<input type="text" name="txtFirstName" id="txtFirstName" />
+				
+			</div><br>
+			
+			<div>
+				<label for="txtLastName">Last name:</label>
+
+				
+				<input type="text" name="txtLastName" id="txtLastName" />
+
+			</div><br>
+			
+			<div>
+				<label for="txtAddress1">Address Line 1:</label>
+
+				
+				<input type="text" name="txtAddress1" id="txtAddress1" />
+
+			</div><br>
+			
+			<div>
+				<label for="txtAddress2">Address Line 2:</label>
+
+				
+				<input type="text" name="txtAddress2" id="txtAddress2" />
+
+			</div><br>
+			
+			<div>
+				<label for="txtSector">Sector:</label>
+				
+				<input type="text" name="txtSector" id="txtSector" />
+
+			</div><br>
+			
+			<div>
+
+				<label for="txtPlanet">Planet:</label>
+
+				<input type="text" name="txtPlanet" id="txtPlanet" />
+
+			</div><br>
+			
+			<div>
+
+				<label for="txtEmail">Email:</label>
+
+				<input type="text" name="txtEmail" id="txtEmail" />
+
+			</div><br>
+			
+			<div>
+				<input type="checkbox" name="chkPacket" />Check here if you wish to receive "Culture of Naboo" packet.
+
+			</div>
+				
+			<div>
+				<input type="checkbox" name="chkNewsletter" checked="checked" />Check here if you wish to be receive quarterly newsletters.
+
+			</div>			
+		</fieldset>
+		<br />
+		<br />
+		
+
+		<fieldset>
+			<legend>Accomidation Information</legend>
+
+			<div>
+				<label for="selParty">Number in Party:</label>
+
+				<select name="selParty" id="selParty">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5+</option>
+				</select>
+			</div>
+			
+			<div>
+				<input type="radio" name="radCard" value="1" /> Yes, I need transportation while on Naboo
+				<br />
+								
+				<input type="radio" name="radCard" value="2" /> No, I do not need transportation while on Naboo
+
+			</div>
+			
+			<div>
+				<input type="submit" value="Submit" class="sub" />
+			</div>
+	
+		</fieldset>
+	</form>
+		
+	</div>
+	</div>
+
+	<div id="sidebar2Container">
+	<div id="sidebar2">
+		<h3>Travel News</h3>
+		<div class="contentInside">
+			<p>Tours through the <a href="lianormswamp.html">Lianorm Swamp</a> will currently be postponed until further notice due to aggressive animal attacks.  We are sorry for the inconvenience.</p>
+		</div>
+		<div class="contentInside">
+			<p>Theed's grand opening of the toy droid gift shop.  Come and buy your droid replicas today!</p>
+		</div>
+			<h4>To stay updated, join our email list and sign up for our quarterly newsletter...!</h4>
+	</div>
+	</div>
+	
+</div>
+
+	<div id="footer">
+		<p>Travel Naboo - Majestic and Mysterious. 34,000 light years away from the Deep Core. &copy;Copyright</p>
+	</div>
+	
+</body>
+</html>

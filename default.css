@@ -1,0 +1,185 @@
+/*Page Created by Abigail Liskey*/
+/*Blue Ridge Community College Fall 2010 ITD110 Professor Oliver*/
+body
+{
+	margin: 5;
+	background-color: white;
+}
+/*.contentBg
+{
+	background-image: url('images/shiro.jpg');
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}*/
+/*HEADERS---------------------------------------------*/
+h1
+{
+	margin: 0;
+	color: #345259;
+	font-variant: small-caps;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	font-size: 3em;
+}
+h2
+{
+	margin: 0;
+	padding: 5px 5px;
+	margin-bottom: 10px;
+	color: #345259;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	
+}
+h3
+{
+	margin: 0;
+	font-family: "Times New Roman";
+	padding-bottom: 10px;
+}
+h4
+{
+	text-indent: 1em;
+}
+/*FONT-----------------------------------------------*/
+p
+{
+	margin: 0;
+	font-size: .9em;
+	text-indent: 1em;
+	line-height: 150%;
+}
+.specialContent
+{
+	font-weight: bold;
+	text-decoration: underline;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+}
+.specialContent2
+{
+	color: blue;
+	font-size: .9em;
+	font-family: Arial;
+	font-style: italic;
+}
+.largeText
+{
+	font-size: 1.2em;
+	text-align: center;
+	border-bottom: 2px solid black;
+	border-right: none;
+	width: 700px;
+}
+.contentInside
+{
+	background-color: #eaf7e7;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px dashed black;
+	border-right: 1px dashed black;
+	margin: 5px 0px 5px 0px;
+	padding: 5px;
+}
+.quote
+{
+	font-family: "Times New Roman";
+	font-size: .9em;
+	letter-spacing: -1px;
+}
+.addressEdit
+{
+	text-indent: 0em;
+	padding-left: 20px;
+	line-height: 150%;
+}
+/*LISTS----------------------------------------*/
+ul
+{
+	margin: 0;
+}
+.contactList
+{
+	list-style-type: none;
+}
+/*TABLES----------------------------------------*/
+table
+{
+	padding: 0px;
+	border-collapse: collapse;
+}
+table tr
+{
+
+	
+}
+table th
+{
+	width: 25%;
+	text-align: left;
+	border-right: 2px solid black;
+	border-bottom: 1px dotted black;
+}
+table td
+{
+	padding: 2px 5px;
+	border-bottom: 1px dotted black;
+}
+table legend
+{
+	font-weight: bold;
+	border: 1px solid black;
+	padding: 2px 8px;
+}
+/*FORMS-----------------------------------------*/
+form
+{
+	background-color: #eaf7e7;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px dashed black;
+	border-right: 1px dashed black;
+	margin: 5px 0px 5px 0px;
+	padding: 20px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	font-size: .9em;
+}
+fieldset
+{
+	border: 1px solid black;
+	background-color: #ffffff;
+
+}
+label
+{
+	float: left;
+	width: 150px;
+	margin-left: 10px;
+}
+input
+{
+	margin-left: 10px;
+}
+legend
+{
+	border: 1px solid black;
+	text-transform: capitalize;
+	background-color: #345259;
+	margin-left: 10px;
+	padding: 2px 2px;
+	color: #ffffff;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";	
+}
+.sub
+{
+	margin: 5px 10px;
+	background-color: silver;
+	font-size: 1.1em;
+}
+
+/*IMAGES----------------------------------------*/
+.floatRight
+{
+	float: right;
+}
+.contentImage
+{
+	float: left;
+}

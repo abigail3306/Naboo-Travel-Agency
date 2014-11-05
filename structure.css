@@ -1,0 +1,232 @@
+/*Page Created by Abigail Liskey*/
+/*Blue Ridge Community College Fall 2010 ITD110 Professor Oliver*/
+
+/*CONTAINER---------------------------------------------*/
+#container
+{
+	width: 920px;
+	overflow: hidden;
+	margin: auto;
+	padding: 10px;
+	border: 1px solid black;
+}
+/*HEADER------------------------------------------------*/
+#header
+{
+	background-color: white;
+	height: 80px;
+}
+#header h3
+{
+	position: absolute;
+	top: 65px;
+}
+/*MENU--------------------------------------------------*/
+#menuContainer
+{
+	margin-left: 10px;
+}
+#menu
+{
+
+	float: left;
+	text-align: center;
+	background-color: white;
+	height: 400px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid black;
+}
+#menu ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+/*	width: 9.55em; */
+	width: 150px;
+	float: left;
+	padding-bottom: 10px;
+}
+#menu a, #menu h2
+{
+	font: bold 11px/16px arial, helvetica, sans-serif;
+	display: block;
+	border: 1px solid black;
+	border-left: none;
+	margin: 0;
+	padding: 6px 5px;
+
+}
+.borderLeft
+{
+	border-left: 1px solid black;
+}
+#menu h2 
+{
+	color: black;
+	background: white;
+	text-transform: uppercase;
+}
+#menu a 
+{
+	color: #ffffff;
+	background: #345259;
+	/* for IE */
+	filter:alpha(opacity=90);
+	/* CSS3 standard */
+	opacity:0.9;
+	text-decoration: none;
+}
+#menu a:hover 
+{
+	color: #ffffff;
+	background: #345259;
+}
+#menu li 
+{
+	position: relative;
+}
+#menu ul ul 
+{
+	position: absolute;
+	z-index: 500;
+}
+#menu ul ul ul 
+{
+	position: absolute;
+	top: 0;
+	left: 100%;
+}
+div#menu ul ul,
+div#menu ul li:hover ul ul,
+div#menu ul ul li:hover ul ul
+{
+	display: none;
+}
+div#menu ul li:hover ul,
+div#menu ul ul li:hover ul,
+div#menu ul ul ul li:hover ul
+{
+	display: block;
+}
+#menuLogo
+{
+
+	clear: both;
+}
+/*SIDEBARS-----------------------------------------------*/
+/*#sidebar1Container
+{
+	float: left;
+	width: 15%;
+	background-color: white;
+	text-align: center;
+		
+	padding-bottom: 1001em;
+	margin-bottom: -1000em;
+}
+#sidebar1
+{
+	border: 1px solid black;
+	border-top: none;
+	padding: 5px 5px 5px 5px;
+
+	padding-bottom: 1001em;
+	margin-bottom: -1000em;
+}*/
+#sidebar2Container
+{
+
+	background-color: white;
+	margin-left: 80%;
+	min-height: 600px
+	text-align: center;
+	width: 180px;
+	padding-bottom: 1001em;
+	margin-bottom: -1000em;
+
+}
+#sidebar2
+{
+	min-height: 600px
+	border: 1px solid black;
+	padding: 10px;
+	
+	padding-bottom: 1001em;
+	margin-bottom: -1000em;
+}
+#sidebar2 p
+{
+	line-height: 150%;
+	font-size: .8em;
+	text-indent: 0em;
+}
+#sidebar2 a
+{
+	color: green;
+}
+#sidebar2 img
+{
+ 	background-color: white;
+	padding: 5px;
+	border: 1px solid silver;
+	clear: both;
+}
+/*CONTENT-----------------------------------------------*/
+#contentContainer
+{
+	min-height: 600px;
+	float: left;
+	width: 80%;
+	background-color: white;
+	
+	padding-bottom: 1001em;
+	margin-bottom: -1000em;
+}
+#content
+{
+	min-height: 600px;
+	border: 1px solid black;
+	border-top: none;
+	border-left: none;
+	padding: 10px 10px 10px 10px;
+	
+	padding-bottom: 1001em;
+	margin-bottom: -1000em;
+}
+#content p
+{
+	font-size: 1em;
+}
+#content a
+{
+	color: green;
+}
+#content h2
+{
+	background-color: #e5e5e5;
+	padding: 10;
+	border: 1px dashed black;
+}
+#content img
+{
+	background-color: white;
+	padding: 5px;
+	margin: 10px;
+	border: 1px solid silver;
+	clear: both;
+}
+/*FOOTER------------------------------------------------*/
+#footer
+{
+	background-color: silver;
+	clear: both;
+	margin: auto;
+	width: 940px;
+	padding: 5px 0px;
+	border: 1px solid black;
+	border-top: none;
+	font-size: .9em;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
