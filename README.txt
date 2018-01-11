@@ -1,5 +1,4 @@
 Title: Naboo Travel Agency
-Ownership: Abigail Liskey
 Course/Project: Web Design I
 University/Institution: Blue Ridge Community College
 Written in: HTML, CSS
